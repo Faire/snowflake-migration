@@ -1,0 +1,14 @@
+# Common
+watermark_column: created_at
+high_watermark: 2021-03-03
+
+# Redshift
+redshift_src_schema: etl
+redshift_src_table: core_sample_table
+
+# Snowflake
+snowflake_src_db: demo_db
+snowflake_src_schema: etl
+snowflake_src_table: core_sample_table
+snowflake_dest_db: demo_db
+snowflake_dest_schema: test
